@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Ropa+Sans);
+
+.clear{
+    clear: both;
+}
+.scroll_area {
+    padding-bottom: 30px;
+}
+.scroll_area ul {
+    clear: both;
+}
+.scroll_area ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 20px 10px;
+}
+/*.scroll_area ul li:after{
+    content: url(../../assets/img/service/arrow-down-og.png);
+    position: relative;
+    left: 8px;
+}*/
+.scroll_area ul li a{
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-decoration: none;
+    padding-right: 30px;
+    background: url(../../assets/img/service/arrow-down-og.png) no-repeat right 5px;
+}
+.scroll_area ul li a:hover{
+    color: #fbb42a;
+}
+@media screen and (max-width: 768px) {
+.scroll_area {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.scroll_area ul{
+padding-left: 30px;
+}
+.scroll_area ul li{
+    list-style-type: none;
+    margin: 0 0 10px -30px;
+    padding: 10px 0;
+    text-align: left;
+    float: none;
+    border-bottom: 1px solid #ccc;
+background: url(../../assets/img/service/arrow-down-og.png) no-repeat right 18px;
+}
+.scroll_area ul li a{
+    border: none;
+    background: none;
+    padding-right: 0px;
+}
+
+
+}
+
+
+
+.agency_lead{
+    text-align: left;
+}
+.agency_lead h4{
+    color: #23527c;
+    margin-top: 40px;
+}
